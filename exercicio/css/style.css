@@ -1,0 +1,94 @@
+body {
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #60d02f;
+}
+header {
+    background-color: #ff8903;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+h1 {
+    margin: 0;
+    text-shadow: 4px 2.5px 0 rgba(0,0,0,0.3);
+}
+.container {
+    color: #ffffff;
+    max-width: 800px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 10px;
+    text-align: left;
+}
+.btn {
+    display: inline-block;
+    background-color: #2f8dd0;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+.btn:hover {
+    background-color: #1c4875;
+    
+}
+.foto {
+    margin-left: 73%;
+    align-items: center;
+    position: absolute;
+    height: 320px;
+    width: 230px;
+    overflow: hidden;
+    border-radius: 300px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.pokedex{
+    margin-left: 5%;
+    margin-top: 5%;
+    align-items: center;
+    position: absolute;
+    height: 220px;
+    width: 290px;
+    overflow: hidden;
+    border-radius: 10px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.qr{
+    margin-left: 60%;
+    margin-top: 5%;
+    align-items: center;
+    position: absolute;
+    height: 220px;
+    width: 290px;
+    overflow: hidden;
+    border-radius: 10px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.buttonpoke{
+    margin-left: 15%;
+    margin-top: 30%;
+}
+.buttonqr{
+    margin-left: 67%;
+    margin-top: -4.5%;
+    position: absolute;
+
+}

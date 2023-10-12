@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postagem</title>
+  </head>
+  <body>
+    <form
+      method="post"
+      action="https://65273f78917d673fd76d86fd.mockapi.io/api/v1/posts"
+    >
+      <label for="title">Escreva um novo postIT</label>
+      <br />
+      <input
+        id="title"
+        type="text"
+        name="title"
+        placeholder="Titulo"
+        required
+        style="width: 200px"
+      />
+      <br />
+      <label for="body"></label>
+      <textarea
+        placeholder="Escreva aqui..."
+        name="body"
+        id="body"
+        required
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <label for="userId">Usuário</label>
+      <br />
+      <input
+        id="userId"
+        type="text"
+        name="userId"
+        placeholder="Seu nome..."
+        required
+        style="width: 200px"
+      />
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
