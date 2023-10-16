@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Entre em Contato Comigo</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="button">
+      <a href="../index.html" class="btn">Inicio</a>
+      <a href="../pages/portifolio.html" class="btn">Projetos</a>
+      <a href="../pages/form.html" class="btn">Fale Conosco</a>
+      <a href="https://github.com/N3th3rL0rd" target="_blank" class="btn"
+        >GitHub</a
+      >
+    </div>
+    <header>
+      <h1>Entre em contato Comigo</h1>
+    </header>
+    <div class="container">
+        <form class="form"
+        method="post"
+        action="https://65273f78917d673fd76d86fd.mockapi.io/api/v1/contato"
+      >
+        <label class="label" for="name">Nome</label><br/>
+        <input class="input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Digite seu nome"
+        />
+        <br />
+        <label class="label" for="phone">Telefone</label><br/>
+        <input class="input"
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="(xx)x xxxx-xxxx (Opcional)"
+        /><br />
+        <label class="label" for="email">Email</label><br/>
+        <input class="input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email"
+        />
+        <br />
+        <label class="label" for="mesage">Nos dê uma idea de que tipo de solução você busca</label><br/>
+        <textarea class="input"
+          name="mesage"
+          id="mesage"
+          cols="30"
+          rows="10"
+          placeholder="Digite sua mensagem"
+        ></textarea
+        ><br />
+        <label class="label" for="time">Melhor Horario para entrarmos em contato</label><br/>
+        <input class="input"
+          type="time"
+          name="time"
+          id="time"
+          placeholder="Digite o melhor horario para entrarmos em contato"
+        /><br />
+        <input class="submit" type="submit" value="Enviar" />
+      </form>
+    </div>
+  </body>
 </html>
