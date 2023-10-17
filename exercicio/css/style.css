@@ -125,6 +125,7 @@ h1 {
     border-color: #2f8dd0;
     border-style: solid;
     border-size: 100px;
+    resize: none;
 }
 .submit{
     display: inline-block;
