@@ -1,25 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chef Gabryel Machado</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio Digital - Chef Gabryel Machado</title>
+  <meta name="description" content="Confira nosso cardápio digital com os melhores pratos da culinária brasileira.">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <header>
-    <div class="button">
-        <a href="./index.html" class="btn">Inicio</a>
-        <a href="./pages/portifolio.html" class="btn">Projetos</a>
-        <a href="./pages/form.html" class="btn">Fale Conosco</a>
-        <a href="https://github.com/N3th3rL0rd" target="_blank" class="btn"
-          >GitHub</a
-        >
-      </div>
+  <div class="button">
+    <a href="./index.html" class="btn">Início</a>
+    <a href="#" class="btn">Projetos</a>
+    <a href="#" class="btn">Fale Conosco</a>
+    <a href="https://github.com/N3th3rL0rd" target="_blank" class="btn">GitHub</a>
+  </div>
+  <div>
+    <img class="logo" src="./images/logo.png" alt="Logo da página">
+  </div>
 </header>
+
 <body>
-    
+  <h1>Cardápio Digital</h1>
+  <p>Confira nosso cardápio digital com os melhores pratos da culinária brasileira.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Imagem</th>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Preço</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img class="imagem" src="./images/feijoada.jpg" alt="Feijoada"></td>
+        <td>Feijoada</td>
+        <td>Prato típico brasileiro feito com feijão preto, carnes e acompanhamentos.</td>
+        <td>R$ 35,00</td>
+      </tr>
+      <tr>
+        <td><img class="imagem" src="./images/picanha.jpg" alt="Picanha"></td>
+        <td>Picanha</td>
+        <td>Corte nobre de carne bovina muito apreciado no Brasil.</td>
+        <td>R$ 50,00</td>
+      </tr>
+      <tr>
+        <td><img class="imagem" src="./images/brigadeiro.jpg" alt="Brigadeiro"></td>
+        <td>Brigadeiro</td>
+        <td>Doce típico brasileiro feito com leite condensado, chocolate em pó e manteiga.</td>
+        <td>R$ 2,00 (unidade)</td>
+      </tr>
+    </tbody>
+  </table>
+  <form action="#" method="POST">
+    <h2>Cadastre-se para receber novidades</h2>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Enviar</button>
+  </form>
 </body>
 <footer>
-    <p>Desenvolvido por Gabryel Machado</p>
-</footer>
+  <div class="button">
+    <a href="./index.html" class="btn">Início</a>
+    <a href="#" class="btn">Projetos</a>
+    <a href="#" class="btn">Fale Conosco</a>
+    <a href="https://github.com/N3th3rL0rd" target="_blank" class="btn">GitHub</a>
+  </div>
+
 </html>

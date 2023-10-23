@@ -1,122 +1,134 @@
+/* Estilo padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+/* Logo */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /
+    height: auto;
+    z-index: 1;
+}
+    
 body {
-    font-family: 'Fira Code', monospace;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    background-color: #ffff;
+  font-family: "Fira Code", monospace;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
 h1 {
-    margin: 0;
-    text-shadow: 4px 2.5px 0 rgba(0,0,0,0.3);
-}
-.container {
-    color: #ffffff;
-    max-width: 100%;
-    margin-left: 10px;
-    padding: 10px;
-    font-size: 100%;
-    text-align: left;
-    height: 100%;
-    width: 100%;
-}
-.button{
-    display: flex;
-    margin-left: 15%;
-    align-items: center;
-}
-.btn {
-    display: inline-block;
-    background-color: #2f8dd0;
-    color: #fff;
-    padding: 5px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 8px;
-    margin-bottom: 10px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
-    position: relative;
-}
-.btn:hover {
-    background-color: #1c4875;
-    
-}
-.foto {
-    margin-left: 73%;
-    align-items: center;
-    position: absolute;
-    height: 40%;
-    width: 15%;
-    overflow: hidden;
-    border-radius: 300px;
-    border-color: #2f8dd0;
-    border-style: solid;
-    border-size: 100px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
-}
-.pokedex{
-    margin-left: 15%;
-    margin-top: 5%;
-    align-items: center;
-    position: absolute;
-    height: 30%;
-    width: 15%;
-    overflow: hidden;
-    border-radius: 10px;
-    border-color: #2f8dd0;
-    border-style: solid;
-    border-size: 100px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    font-size: 6rem;
+  color: #3498db;
 }
 
-.form{
-    font-size: 20px;
-    margin-left: 5%;
-    margin-top: 1%;
-    align-items: center;
-    position: absolute;
-    height: 80%;
-    width: 89%;
-    overflow: hidden;
-    border-radius: 10px;
-    border-color: #2f8dd0;
-    border-style: solid;
-    border-size: 100px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+p {
+  margin: 20px 0;
 }
-.label{
-    margin-left: 5%;
-    margin-top: 5%;
-    font-size: 20px;
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  margin-bottom: 4rem;
 }
-.input{
-    margin-left: 5%;
-    margin-top: 0.5%;
-    margin-bottom: 2%;
-    font-size: 20px;
-    width: 90%;
-    height: 30px;
-    border-radius: 5px;
-    border-color: #2f8dd0;
-    border-style: solid;
-    border-size: 100px;
-    resize: none;
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #3498db;
 }
-.submit{
-    display: inline-block;
-    background-color: #2f8dd0;
-    color: #fff;
-    padding: 5px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 5%;
-    margin-left: 45%;
-    margin-bottom: 10px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
-    position: relative;
+
+th {
+  background-color: #3498db;
+  color: #000;
 }
-.submit:hover {
-    background-color: #1c4875;
-    
+
+td {
+  background-color: #000;
+}
+
+/* Hover da tabela */
+tr:hover {
+  background-color: rgba(52, 152, 219, 0.3);
+  color: blue;
+}
+
+/* Estilização do Form */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #3498db;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #3498db;
+  background-color: #000;
+  color: #fff;
+}
+
+button {
+  background-color: #3498db;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilização do Footer */
+footer {
+  margin-top: 20px;
+  color: #3498db;
+}
+
+/* Botões Header */
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #3498db;
+  margin: 0 10px;
+}
+
+/* Imagens na tabela */
+.imagem {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  .imagem {
+    max-width: 50px;
+    max-height: 50px;
+  }
 }
