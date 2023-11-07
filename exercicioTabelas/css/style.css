@@ -1,0 +1,134 @@
+/* Estilo padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+/* Logo */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /
+    height: auto;
+    z-index: 1;
+}
+    
+body {
+  font-family: "Fira Code", monospace;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+    font-size: 6rem;
+  color: #3498db;
+}
+
+p {
+  margin: 20px 0;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  margin-bottom: 4rem;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #3498db;
+}
+
+th {
+  background-color: #3498db;
+  color: #000;
+}
+
+td {
+  background-color: #000;
+}
+
+/* Hover da tabela */
+tr:hover {
+  background-color: rgba(52, 152, 219, 0.3);
+  color: blue;
+}
+
+/* Estilização do Form */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #3498db;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #3498db;
+  background-color: #000;
+  color: #fff;
+}
+
+button {
+  background-color: #3498db;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilização do Footer */
+footer {
+  margin-top: 20px;
+  color: #3498db;
+}
+
+/* Botões Header */
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #3498db;
+  margin: 0 10px;
+}
+
+/* Imagens na tabela */
+.imagem {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  .imagem {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}

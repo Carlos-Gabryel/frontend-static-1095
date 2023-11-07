@@ -1,0 +1,146 @@
+body {
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #60d02f;
+}
+header {
+    background-color: #ff8903;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+h1 {
+    margin: 0;
+    text-shadow: 4px 2.5px 0 rgba(0,0,0,0.3);
+}
+.container {
+    color: #ffffff;
+    max-width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 100%;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    background-color: #2f8dd0;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+.btn:hover {
+    background-color: #1c4875;
+    
+}
+.foto {
+    margin-left: 73%;
+    align-items: center;
+    position: absolute;
+    height: 40%;
+    width: 15%;
+    overflow: hidden;
+    border-radius: 300px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.pokedex{
+    margin-left: 15%;
+    margin-top: 5%;
+    align-items: center;
+    position: absolute;
+    height: 30%;
+    width: 15%;
+    overflow: hidden;
+    border-radius: 10px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.qr{
+    margin-left: 60%;
+    margin-top: 6%;
+    align-items: center;
+    position: absolute;
+    height: 25%;
+    width: 15%;
+    overflow: hidden;
+    border-radius: 10px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.buttonpoke{
+    margin-left: 20%;
+    margin-top: 22%;
+}
+.buttonqr{
+    margin-left: 63%;
+    margin-top: -4.5%;
+    position: absolute;
+
+}
+.form{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 1%;
+    align-items: center;
+    position: absolute;
+    height: 80%;
+    width: 89%;
+    overflow: hidden;
+    border-radius: 10px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.label{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.input{
+    margin-left: 5%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #2f8dd0;
+    border-style: solid;
+    border-size: 100px;
+    resize: none;
+}
+.submit{
+    display: inline-block;
+    background-color: #2f8dd0;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+.submit:hover {
+    background-color: #1c4875;
+    
+}
